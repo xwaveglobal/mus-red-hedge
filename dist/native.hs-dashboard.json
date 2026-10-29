@@ -1,0 +1,116 @@
+{
+  "iaa_config": {
+    "placements": [
+      {
+        "label": "Double Task Bonus",
+        "ads": [
+          {
+            "id": "ad..."
+          }
+        ]
+      },
+      {
+        "label": "Buying Pad",
+        "ads": [
+          {
+            "id": "ad..."
+          }
+        ]
+      },
+      {
+        "label": "Hedge Rush",
+        "ads": [
+          {
+            "id": "ad..."
+          }
+        ]
+      },
+      {
+        "label": "VIP tip",
+        "ads": [
+          {
+            "id": "ad..."
+          }
+        ]
+      },
+      {
+        "label": "Coin Purchase",
+        "ads": [
+          {
+            "id": "ad..."
+          }
+        ]
+      },
+      {
+        "label": "Grand Opening",
+        "ads": [
+          {
+            "id": "ad..."
+          }
+        ]
+      },
+      {
+        "label": "Grill Break",
+        "ads": [
+          {
+            "id": "ad..."
+          }
+        ]
+      }
+    ],
+    "rewards": {
+      "Double Task Bonus": {
+        "task_bonus": 1
+      },
+      "Buying Pad": {
+        "coin_bag": 1
+      },
+      "Hedge Rush": {
+        "meow_rush": 1
+      },
+      "VIP tip": {
+        "vip_bonus": 1
+      },
+      "Coin Purchase": {
+        "coins": 100
+      },
+      "Grand Opening": {
+        "coins": 200
+      },
+      "share": {
+        "coins": 50,
+        "$limit": "daily"
+      },
+      "tiktok_shortcut": {
+        "coins": 100
+      },
+      "tiktok_profile": {
+        "coins": 100,
+        "$limit": "daily"
+      }
+    },
+    "items": {
+      "coins": {
+        "category": "currency",
+        "name": "Coins"
+      },
+      "meow_rush": {
+        "category": "boost",
+        "name": "Hedge Rush"
+      },
+      "task_bonus": {
+        "category": "bonus",
+        "name": "Task bonus"
+      },
+      "vip_bonus": {
+        "category": "bonus",
+        "name": "VIP tip"
+      },
+      "coin_bag": {
+        "category": "bonus",
+        "name": "Coin bag"
+      }
+    }
+  },
+  "products": []
+}
